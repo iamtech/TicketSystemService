@@ -9,7 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.app.service.dao.TicketSystemDoa;
 
+/*
+Commented as its been called from Zuul Gateway Service
+Uncomment if to call directly
+
 @CrossOrigin
+
+*/
 @RestController
 public class TicketSystemController {
 	
